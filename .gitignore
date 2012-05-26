@@ -1,0 +1,12 @@
+*~
+.DS_Store
+*.o
+*.elc
+GPATH
+GRTAGS
+GTAGS
+*.hi
+a.out
+TAGS
+\#*#
+\.#*

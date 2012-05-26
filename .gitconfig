@@ -1,0 +1,15 @@
+[user]
+	name = Tomohiko Himura
+	email = eiel.hal@gmail.com
+[core]
+	excludesfile = ~/.gitignore
+[color]
+	ui = auto
+[alias]
+	st = status
+	cmt = commit -v
+        cma = commit -v --amend
+	cho = checkout
+	dc = diff --cached
+	df = diff
+	sb = show-branch
