@@ -1,0 +1,12 @@
+defutf8 on
+defkanji utf-8
+encoding utf-8 utf-8
+defencoding utf-8
+escape ^t^t
+
+hardstatus alwayslastline %w
+startup_message off
+autodetach on
+
+# http://subtech.g.hatena.ne.jp/secondlife/20110309/1299648331
+termcapinfo xterm* ti@:te@
