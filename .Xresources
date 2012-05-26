@@ -1,3 +1,11 @@
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.dpi: 96
+Xft.rgba: rgb
+
 rxvt*depth: 32
 rxvt*buffered: true
 rxvt*font: xft:M+2VM+IPAG circle:antialias=true:weight=160:width=1:scalable=true:scale=0.9
