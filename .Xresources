@@ -1,0 +1,24 @@
+rxvt*depth: 32
+rxvt*buffered: true
+rxvt*font: xft:M+2VM+IPAG circle:antialias=true:weight=160:width=1:scalable=true:scale=0.9
+rxvt*background: #333333
+rxvt*foreground: #cccccc
+rxvt*color0: #666666
+rxvt*color1: #ff7777
+rxvt*color2: #77ff77
+rxvt*color3: #ffff77
+rxvt*color4: #7777ff
+rxvt*color5: #ff77ff
+rxvt*color6: #77ffff
+rxvt*color7: #ffffff
+
+rxvt*color8: #0000aa
+rxvt*color9: #ffaaaa
+rxvt*color10: #aaffaa
+rxvt*color11: #ffffaa
+rxvt*color12: #aaaaff
+rxvt*color13: #ffaaff
+rxvt*color14: #aaffff
+rxvt*color15: #ffffff
+
+
