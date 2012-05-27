@@ -1,0 +1,13 @@
+clear lock
+clear control
+clear mod1
+clear mod4
+clear mod5
+keycode 66 = BackSpace
+keycode 100 = Control_L
+keycode 102 = Alt_L
+keycode 64 = Super_L
+add control = Control_L
+add mod1 = Alt_L
+add mod4 = Super_L Super_R
+add mod5 = Hyper_L
