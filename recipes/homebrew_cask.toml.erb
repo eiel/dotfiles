@@ -1,0 +1,5 @@
+<%- homebrew_cask_package_names.each do |homebrew_cask_package_name| -%>
+[[resources]]
+type = "homebrew_cask_package"
+name = "<%= homebrew_cask_package_name %>"
+<%- end -%>

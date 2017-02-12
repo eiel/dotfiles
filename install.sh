@@ -1,4 +1,4 @@
 #!/bin/sh
 set -xe
 
-bundle exec serverkit apply recipe.toml.erb --variables variables.yaml
+bundle exec serverkit apply recies/recipe.toml.erb --variables variables.yaml
