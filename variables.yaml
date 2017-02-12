@@ -1,0 +1,28 @@
+atom_package_names:
+- vim-mode-plus
+- vim-mode-visual-block
+- nuclide
+homebrew_cask_package_names:
+- atom
+- firefox
+- google-chrome
+- google-japanese-ime
+- skitch
+- vagrant
+- virtualbox
+homebrew_package_names:
+- awscli
+- direnv
+- fish
+- ghq
+- git
+- hugo
+- jq
+- neovim
+- q
+- sbt
+- the_silver_searcher
+- tig
+- tmux
+- tree
+
