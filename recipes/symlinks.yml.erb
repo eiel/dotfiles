@@ -1,0 +1,6 @@
+resources:
+<%- dotfiles.each do |path| %>
+  - type: symlink
+    destination: <%= ENV["PWD"] %>/linked/<%= path %>
+    source: <%= ENV["HOME"] %>/<%= path %>
+<%- end -%>
