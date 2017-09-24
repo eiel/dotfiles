@@ -11,6 +11,30 @@
                     "basic.to_if_alone_timeout_milliseconds": 1000
                 },
                 "rules": [
+                  {
+                    "description": "Change ctrl+j to かな",
+                    "manipulators": [
+                      {
+                        "from": {
+                          "key_code": "c",
+                          "modifiers": {
+                            "mandatory": [
+                              "left_control"
+                            ],
+                            "optional": [
+                              "any"
+                            ]
+                          }
+                        },
+                        "to": [
+                          {
+                            "key_code": "japanese_kana"
+                          }
+                        ],
+                        "type": "basic"
+                      }
+                    ]
+                  },
                     {
                         "description": "Change かな to left_control if pressed with other keys (Post spacebar when pressed alone)",
                         "manipulators": [
