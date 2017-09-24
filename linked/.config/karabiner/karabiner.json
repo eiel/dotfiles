@@ -36,32 +36,6 @@
                     ]
                   },
                     {
-                        "description": "Change かな to left_control if pressed with other keys (Post spacebar when pressed alone)",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "japanese_kana",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_control"
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "japanese_kana"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "Change 英数 to right_option if pressed with other keys (Post spacebar when pressed alone)",
                         "manipulators": [
                             {
