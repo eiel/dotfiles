@@ -11,30 +11,30 @@
                     "basic.to_if_alone_timeout_milliseconds": 1000
                 },
                 "rules": [
-                  {
-                    "description": "Change ctrl+j to かな",
-                    "manipulators": [
-                      {
-                        "from": {
-                          "key_code": "c",
-                          "modifiers": {
-                            "mandatory": [
-                              "left_control"
-                            ],
-                            "optional": [
-                              "any"
-                            ]
-                          }
-                        },
-                        "to": [
-                          {
-                            "key_code": "japanese_kana"
-                          }
-                        ],
-                        "type": "basic"
-                      }
-                    ]
-                  },
+                    {
+                        "description": "Change ctrl+j to かな",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "japanese_kana"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
                     {
                         "description": "Change 英数 to right_option if pressed with other keys (Post spacebar when pressed alone)",
                         "manipulators": [
@@ -346,18 +346,18 @@
                 },
                 {
                     "from": {
-                        "key_code": "left_control"
-                    },
-                    "to": {
-                        "key_code": "delete_or_backspace"
-                    }
-                },
-                {
-                    "from": {
                         "key_code": "japanese_kana"
                     },
                     "to": {
                         "key_code": "left_control"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "left_control"
+                    },
+                    "to": {
+                        "key_code": "delete_or_backspace"
                     }
                 }
             ],
